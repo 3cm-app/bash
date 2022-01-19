@@ -1,0 +1,14 @@
+{
+  "site": {
+    "id": "c1e012d6-e654-4bc1-8b4a-27d62cc706a8",
+    "team": "ca07ecb8-9872-4fc0-a8aa-eb12068a20af",
+    "platform": "ipfs",
+    "source": "ipfs",
+    "name": "bash-3cm-app"
+  },
+  "build": {
+    "baseDir": "",
+    "publicDir": "public",
+    "rootDir": ""
+  }
+}
