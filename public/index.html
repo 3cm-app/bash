@@ -50,5 +50,22 @@
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//unpkg.com/docsify@4/lib/plugins/emoji.min.js"></script>
   <script src="//unpkg.com/docsify@4/lib/plugins/front-matter.min.js"></script>
+  <!-- Gitalk -->
+  <div id="gitalk-container"></div>
+  <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
+  <script src="//unpkg.com/gitalk/dist/gitalk.min.js" defer></script>
+  <script defer>
+    const gitalk = new Gitalk({
+      clientID: '327499070677810b1f3c',
+      clientSecret: '7a42c30b9a947ef59eaa0eb6f1af8b2b037b152f',
+      repo: 'https://github.com/3cm-app/bash.3cm.app',
+      owner: '3cm-app',
+      admin: ['up9cloud'],
+      number: 1,
+      distractionFreeMode: false,
+      perPage: 100,
+    })
+    gitalk.render('gitalk-container')
+  </script>
 </body>
 </html>

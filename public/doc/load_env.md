@@ -8,6 +8,8 @@ Load environment variables from dotenv / .env file
 set -a
 . <(curl -s bash.3cm.app/load_env.sh|bash -s .env)
 set +a
+
+declare -p
 ```
 
 ## Refs
