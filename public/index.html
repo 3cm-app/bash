@@ -12,7 +12,8 @@
   <div id="app"></div>
   <script>
     (function (window) {
-      let routerMode = 'history'
+      // let routerMode = 'history'
+      let routerMode = 'hash' // ipfs don't support _redirects yet, see 
       if (location.hostname === 'localhost') {
         routerMode = 'hash'
       }
