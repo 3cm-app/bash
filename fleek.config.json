@@ -2,8 +2,7 @@
   "sites": [
     {
       "slug": "screeching-branch-massive",
-      "distDir": "public",
-      "buildCommand": "npm run build"
+      "distDir": "public"
     }
   ]
 }
