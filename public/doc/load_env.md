@@ -14,4 +14,4 @@ declare -p
 
 ## Refs
 
-- https://gist.github.com/mihow/9c7f559807069a03e302605691f85572#gistcomment-3625310
+- `https://gist.github.com/mihow/9c7f559807069a03e302605691f85572#gistcomment-3625310`
