@@ -15,8 +15,6 @@ jobs:
           node-version: 18
       - name: Install Fleek CLI
         run: npm i -g @fleekxyz/cli
-      - name: Install Packages
-        run: npm i
       - name: Build & deploy sites
         run: fleek sites deploy
       - uses: up9cloud/action-notify@master
